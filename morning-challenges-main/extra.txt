@@ -1,0 +1,81 @@
+# def addFun(n: int) -> int:
+#     if n <= 0:
+#         return 0
+#     if n == 1:
+#         return 1
+#     return addFun(n-1) + addFun(n-2)
+
+
+# print(addFun(8))
+
+# def abracadabra(head):
+#     list = head
+
+#     while list:
+#         if (list.next == None):
+#             break
+#         if(list.val == list.next.val):
+#             list.next = list.next.next.next
+#         else:
+#             list = list.next
+
+#     return head
+
+# # make linked list 1 -> 2 -> 2 -> 3 -> 4 -> 5 -> 5 -> 6 -> 7
+
+
+# Node = {[1, 4, 5, 6, 7, 2, 2, 3], 123}
+# linkedList = Node(1)
+# linkedList.next = Node(2)
+# linkedList.next.next = Node(2)
+# linkedList.next.next.next = Node(3)
+# linkedList.next.next.next.next = Node(4)
+# linkedList.next.next.next.next.next = Node(5)
+# linkedList.next.next.next.next.next.next = Node(5)
+# linkedList.next.next.next.next.next.next.next = Node(6)
+# linkedList.next.next.next.next.next.next.next.next = Node(7)
+
+# abracadabra(linkedList)
+
+
+import math
+import os
+import random
+import re
+import sys
+
+
+# given two sorted integer lists nums1 and nums2, return a new list that merges nums1 and nums2 as one sorted list.
+
+# For example:
+#Given: [1,4,6] and [2,3,5]
+#Return: [1,2,3,4,5,6]
+
+# Given: [0] and [1]
+# Return: [0,1]
+
+# Given: [2] and [2]
+# Return: [2,2]
+
+
+def merge(nums1, nums2):
+    i = 0
+    j = 0
+    result = []
+    while i < len(nums1) and j < len(nums2):
+        if nums1[i] < nums2[j]:
+            result.append(nums1[i])
+            i += 1
+        else:
+            result.append(nums2[j])
+            j += 1
+    # if i == len(nums1):
+    #     result += nums2[j:]
+    # else:
+    #     result += nums1[i:]
+    return result
+
+
+print(merge([1, 4, 6], [2, 3, 5]))
+print(merge([0], [1]))
+print(merge([2], [2]))

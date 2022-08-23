@@ -1,0 +1,25 @@
+Create a function that takes a string as a parameter and alternates the casing of each individual letter within the string. Eg. Hello World! => hELLO wORLD!
+
+intended input
+Hello World!
+
+open test
+
+
+const words = "Hello World!";
+
+
+const alternateCase = (words) => {
+    for (let i = 0; i < words.length ; i++){
+        if (words[i] === words[i].toUpperCase()){
+            words = words[i].toLowerCase();
+        }
+        else{
+            words = words[i].toUpperCase();
+        }
+    }
+    return words
+}
+
+const alternatedWord = alternateCase(words);
+asd
