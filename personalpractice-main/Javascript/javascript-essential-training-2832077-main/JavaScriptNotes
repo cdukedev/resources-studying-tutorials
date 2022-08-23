@@ -1,0 +1,18 @@
+Vanilla JAvascript is the core
+ECMAscript is the browaser specification for the web
+
+TypeScript is a strong typing type of JavaScript that is compiled to JavaScript. This and coffee script can be though of as dialects of JavaScript.
+
+Frameworks like Angular, React, and Vue are all JavaScript frameworks.
+React uses JSX to mix javascript and HTML.
+
+
+Build tools like Webpack, Gulp, npm, and Babel are used to optimize human-readanble JavaScript for the best browser performance.
+
+
+server side JavaScript is written in Node.js
+
+understand Javascript first then specialize and optimize your knowledge
+
+
+*/

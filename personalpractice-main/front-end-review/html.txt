@@ -1,0 +1,109 @@
+
+ELEMENTS
+
+<time datetime="" >  -  use when presenting a date for letting the web page know about the date and time within text.
+<sub> and <sup>     -   for letting the web page know about the subscript and superscript within text.
+<small>    -    show that the text is of lesser importance.
+<pre>     -    for showing the text in the format that it is written in.
+
+<dl> <dt> <dd> - for showing the list of terms and definitions.
+    <dl>
+        <dt> term
+        <dd> definition
+    </dl>
+
+
+ATTRIBUTES
+
+lang="" - for specifying the language of the text in block
+
+
+ARIA ROLES
+Accessibility tree- used by screen readers to navigate the web page.
+
+aria-label="" - for giving the label to the element.
+aria-hidden="true" - for hiding the elements such as a span of individuals letters in css grid.
+role="" - for giving the role to the element.
+
+SIDE NOTES
+
+&nbsp; - makes sure also that there is not a space between the words.
+
+relative urls - for linking to other pages with changing servers.
+
+Always add width and Height to images so the browser can automatically know how much space to save on the browser.
+
+
+IMAGES  
+
+GIF- for animated images, limited color space and can do transparency.
+
+SVG- for vector images, can do transparency and can be used for shapes. Great for logos and icons. can get very small and large
+
+JPG- image format for compressing images. Will make sites slow if not adjusted
+
+PNG - image format for compressing images
+
+
+RESPONSIVE IMAGES -definitely worth learning
+responsive images - for making images that are responsive to the screen size.
+
+srcset - for making images that are responsive to the screen size. 
+       - creates a list of images with 4 different sizes for any screen size
+attributes that are good for this are:
+    max-width
+    width
+
+    can also add a <picture> tag to make the images responsive.
+        then <source media="min-width:600px">
+        with the same srcset attribute.
+
+
+linking image and captions together symantically
+figure - for making a figure with a caption.
+figcaption - for giving a caption to the figure.
+
+extra
+
+
+
+AUDIO
+We can actually add custom controls using Javascript and Html media element apis
+
+<audio controls src="ENTER source" loop autoplay> </audio>
+
+// if you want multiple audio files, you can add multiple <audio> tags.
+<audio>
+    <source src="ENTER source" type="audio/mpeg">
+
+    <source src="ENTER source" type="audio/ogg">
+</audio>
+
+supported file formats
+mp3 
+ogg
+
+
+
+
+VIDEO
+
+use H.264 for video files
+
+CLOSED CAPTION 
+
+webvtt
+Can create one for each language.
+<track src="ENTER source" 
+    kind="captions"
+    label="english" 
+    srclang="en" 
+    default>
+<track src="ENTER source" 
+    kind="captions"
+    label="english" 
+    srclang="en" 
+    default>
+
+can add captions to describe what is going on within the video.
+

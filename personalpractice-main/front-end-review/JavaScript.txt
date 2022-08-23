@@ -1,0 +1,59 @@
+JavaScript
+
+ARRAYS
+any data type can be stored together
+Const arrays are mutable
+
+can .push() and .pop()
+
+.shift() removes the first element
+.unshift() adds an element to the beginning
+
+Logical Operations
+&& for and
+|| for or
+! for not
+== for equality
+=== for strict equality
+-----------------------------------------------------------------------------------------------------------------------
+VAR, LET, CONST 
+Hoisting is the process of moving all declarations to the top of the current scope
+
+If you are console logging an undefined variable, JavaScript will not throw an error, but it will log undefined and hoist the variable to the top of the scope.
+---
+
+let is block scoped - it is not available outside of the block {}
+
+with var you can reassign a variable
+such as 
+var a = 1;
+var a = 2;
+
+or 
+
+var a = 1;
+a = 2;
+
+---
+with let you cannot reassign a variable
+such as
+let a = 1;
+let a = 2;
+
+only as
+let a = 1;
+a = 2;
+
+let can be reassigned but not redeclared unless declared outside of the block {}
+
+No Hoisting with let
+If you try to console log a let variable that has not been declared, you will get an error
+
+const is block scoped and immutable - it is not available outside of the block {} and cannot be reassigned
+
+
+
+
+
+
+

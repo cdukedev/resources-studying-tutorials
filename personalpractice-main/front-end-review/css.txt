@@ -1,0 +1,26 @@
+CSS Reset
+used to over-ride default browser styles
+
+
+use z-index to control stacking order
+z-index="1"
+z-index="2"
+
+
+CSS Frameworks- Collection of CSS files
+contains commonly used CSS styles
+    Typography
+    HTML Elements
+    Layouts
+    Browser Resets
+
+CSS Grids-
+    Layout method and collection of assets
+    not the same as CSS grid Layout
+
+CSS Preprocessors - mini programming language for CSS to save you time with reusable code. SASS is a CSS preprocessor
+    can add variables to CSS
+    mixins
+    functions
+    nested selector
+

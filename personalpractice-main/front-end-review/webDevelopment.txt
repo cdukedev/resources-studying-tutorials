@@ -1,0 +1,25 @@
+URL - Uniform Resource Locator and sends to DNS 
+DNS - Domain name server, figures out the ip address of the host
+
+All things in an html document are boxess within other boxes
+
+DOM - Document Object Model can be visualized as a tree
+    Each element is a node or leaves and the connections are branches
+    navigate the tree using CSS, JS and html to traverse/navigate the tree
+
+
+
+Browsers
+    Browsers will be expanding many different ways to display web pages need to write code to handle all of them
+    Follow accessability and web standards
+    Restful apis seperate data from the html to be used by any Browsers
+    Seperate content from the presentation
+
+ HTML
+      HTML is written by code editors, server side apps and JS Frameworks 
+
+Linux
+Ubuntu - will need to learn SSH from course
+
+also take learning linux command line
+using linux mostly for server side apps
